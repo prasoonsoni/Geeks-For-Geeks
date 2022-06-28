@@ -32,7 +32,6 @@ class Solve {
     int[] findTwoElement(int arr[], int n) {
         int [] result = new int[2];
         int [] count = new int[n];
-        int [] element = new int[n];
         int uniqueSum = 0, sum=0;
         for(int i=0;i<n;i++){
             count[i] = 0;
