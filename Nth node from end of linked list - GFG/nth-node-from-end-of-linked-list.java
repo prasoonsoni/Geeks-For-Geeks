@@ -98,6 +98,7 @@ class GfG
     {
     	int count = 0;
     	Node curr = head;
+    	Node temp = head;
     	while(curr != null){
     	    count++;
     	    curr = curr.next;
@@ -107,7 +108,6 @@ class GfG
     	}
     	int index = count-n+1;
     	int num = -1;
-    	Node temp = head;
     	for(int i=0;i<index;i++){
     	    num = temp.data;
     	    temp = temp.next;
