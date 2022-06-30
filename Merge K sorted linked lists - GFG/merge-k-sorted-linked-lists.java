@@ -93,7 +93,6 @@ class Solution
             }
         }
         Collections.sort(elements);
-        // System.out.println(elements);
         Node head = new Node(elements.get(0));
         Node curr = head;
         for(int i=1;i<elements.size();i++){
